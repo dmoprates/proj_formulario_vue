@@ -1,20 +1,14 @@
 <template>
-  <formulario-view/>
+  <formulario />
 </template>
 
 <script>
-import FormularioView from './components/Formulario.vue'
+import Formulario from './components/Formulario.vue'
 
 export default {
   name: 'App',
   components: {
-    FormularioView
+    Formulario
   }
 }
 </script>
-
-<style>
-#app {
-
-}
-</style>
